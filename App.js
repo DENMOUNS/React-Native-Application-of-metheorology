@@ -8,7 +8,7 @@ import NowWeather from './components/NowWeather';
 import ForeCast from './components/ForeCast';
 
 const API_URL = (lat, lon) =>
-  `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=e2757a09e34cdf5e3c044db5dbc83514&lang=fr&units=metric`;
+  `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=(weather id)&lang=fr&units=metric`;
 export default function App() {
   // recupérer les coordonnées de l'utilisateur
   const [data, setData] = useState(null);
